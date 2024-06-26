@@ -6,13 +6,13 @@
 //
 
 import UIKit
+import Lottie
 
 class ViewController: UIViewController {
     let toastMessage: [Int: String] = [
-        0: "닉네임이 변경되었어요!",
-        1: "비밀번호가 변경되었어요!",
-        2: "이메일이 변경되었어요!",
-        3: "비밀번호가 발급되었어요!"
+        0: "기록 시작!",
+        1: "Start Recording!",
+        2: "开始录制!"
     ]
     var toastNum: Int = 0
 

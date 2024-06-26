@@ -14,6 +14,27 @@
 		87CF23DE2B1DCCDA00821467 /* ToastViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF23DD2B1DCCDA00821467 /* ToastViewModifier.swift */; };
 		87CF23E02B1DCD8F00821467 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF23DF2B1DCD8F00821467 /* ToastView.swift */; };
 		87CF23E22B1DD40500821467 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CF23E12B1DD40500821467 /* Environment.swift */; };
+		D9DC51D22C26FE22009A96F6 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D9DC51D12C26FE22009A96F6 /* Lottie */; };
+		D9DC51D42C26FF0C009A96F6 /* testLottie.json in Resources */ = {isa = PBXBuildFile; fileRef = D9DC51D32C26FF0C009A96F6 /* testLottie.json */; };
+		D9DC51E92C28320A009A96F6 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9DC51D62C283208009A96F6 /* Pretendard-ExtraBold.otf */; };
+		D9DC51EA2C28320A009A96F6 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9DC51D72C283209009A96F6 /* Pretendard-ExtraLight.otf */; };
+		D9DC51EB2C28320A009A96F6 /* Pretendard-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9DC51D92C283209009A96F6 /* Pretendard-Medium.ttf */; };
+		D9DC51EC2C28320A009A96F6 /* Pretendard-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9DC51DA2C283209009A96F6 /* Pretendard-Black.ttf */; };
+		D9DC51ED2C28320A009A96F6 /* Pretendard-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9DC51DB2C283209009A96F6 /* Pretendard-Regular.ttf */; };
+		D9DC51EE2C28320A009A96F6 /* Pretendard-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9DC51DC2C283209009A96F6 /* Pretendard-Thin.ttf */; };
+		D9DC51EF2C28320A009A96F6 /* Pretendard-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9DC51DD2C283209009A96F6 /* Pretendard-ExtraLight.ttf */; };
+		D9DC51F02C28320A009A96F6 /* Pretendard-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9DC51DE2C283209009A96F6 /* Pretendard-SemiBold.ttf */; };
+		D9DC51F12C28320A009A96F6 /* Pretendard-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9DC51DF2C283209009A96F6 /* Pretendard-ExtraBold.ttf */; };
+		D9DC51F22C28320A009A96F6 /* Pretendard-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9DC51E02C283209009A96F6 /* Pretendard-Bold.ttf */; };
+		D9DC51F32C28320A009A96F6 /* Pretendard-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9DC51E12C283209009A96F6 /* Pretendard-Light.ttf */; };
+		D9DC51F42C28320A009A96F6 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9DC51E22C283209009A96F6 /* Pretendard-Light.otf */; };
+		D9DC51F52C28320A009A96F6 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9DC51E32C283209009A96F6 /* Pretendard-Black.otf */; };
+		D9DC51F62C28320A009A96F6 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9DC51E42C283209009A96F6 /* Pretendard-Medium.otf */; };
+		D9DC51F72C28320A009A96F6 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9DC51E52C283209009A96F6 /* Pretendard-Bold.otf */; };
+		D9DC51F82C28320A009A96F6 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9DC51E62C283209009A96F6 /* Pretendard-Regular.otf */; };
+		D9DC51F92C28320A009A96F6 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9DC51E72C28320A009A96F6 /* Pretendard-SemiBold.otf */; };
+		D9DC51FA2C28320A009A96F6 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9DC51E82C28320A009A96F6 /* Pretendard-Thin.otf */; };
+		D9DC52012C29AA62009A96F6 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC52002C29AA62009A96F6 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +46,27 @@
 		87CF23DD2B1DCCDA00821467 /* ToastViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastViewModifier.swift; sourceTree = "<group>"; };
 		87CF23DF2B1DCD8F00821467 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 		87CF23E12B1DD40500821467 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		D9DC51D32C26FF0C009A96F6 /* testLottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testLottie.json; sourceTree = "<group>"; };
+		D9DC51D62C283208009A96F6 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		D9DC51D72C283209009A96F6 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		D9DC51D92C283209009A96F6 /* Pretendard-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.ttf"; sourceTree = "<group>"; };
+		D9DC51DA2C283209009A96F6 /* Pretendard-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.ttf"; sourceTree = "<group>"; };
+		D9DC51DB2C283209009A96F6 /* Pretendard-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.ttf"; sourceTree = "<group>"; };
+		D9DC51DC2C283209009A96F6 /* Pretendard-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.ttf"; sourceTree = "<group>"; };
+		D9DC51DD2C283209009A96F6 /* Pretendard-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.ttf"; sourceTree = "<group>"; };
+		D9DC51DE2C283209009A96F6 /* Pretendard-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.ttf"; sourceTree = "<group>"; };
+		D9DC51DF2C283209009A96F6 /* Pretendard-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.ttf"; sourceTree = "<group>"; };
+		D9DC51E02C283209009A96F6 /* Pretendard-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.ttf"; sourceTree = "<group>"; };
+		D9DC51E12C283209009A96F6 /* Pretendard-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.ttf"; sourceTree = "<group>"; };
+		D9DC51E22C283209009A96F6 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		D9DC51E32C283209009A96F6 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
+		D9DC51E42C283209009A96F6 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		D9DC51E52C283209009A96F6 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		D9DC51E62C283209009A96F6 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		D9DC51E72C28320A009A96F6 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		D9DC51E82C28320A009A96F6 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		D9DC51FB2C28324D009A96F6 /* SwiftUI-Toast-Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUI-Toast-Demo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D9DC52002C29AA62009A96F6 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9DC51D22C26FE22009A96F6 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,13 +100,17 @@
 		87CF23CE2B1DC58800821467 /* SwiftUI Toast Demo */ = {
 			isa = PBXGroup;
 			children = (
+				D9DC51FB2C28324D009A96F6 /* SwiftUI-Toast-Demo-Info.plist */,
 				87CF23CF2B1DC58800821467 /* SwiftUI_Toast_DemoApp.swift */,
 				87CF23D12B1DC58800821467 /* ContentView.swift */,
 				87CF23D32B1DC58900821467 /* Assets.xcassets */,
 				87CF23D52B1DC58900821467 /* Preview Content */,
 				87CF23DD2B1DCCDA00821467 /* ToastViewModifier.swift */,
 				87CF23DF2B1DCD8F00821467 /* ToastView.swift */,
+				D9DC52002C29AA62009A96F6 /* TestView.swift */,
+				D9DC51D52C2831FC009A96F6 /* Font */,
 				87CF23E12B1DD40500821467 /* Environment.swift */,
+				D9DC51D32C26FF0C009A96F6 /* testLottie.json */,
 			);
 			path = "SwiftUI Toast Demo";
 			sourceTree = "<group>";
@@ -74,6 +121,39 @@
 				87CF23D62B1DC58900821467 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9DC51D52C2831FC009A96F6 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				D9DC51D82C283209009A96F6 /* alternative */,
+				D9DC51E32C283209009A96F6 /* Pretendard-Black.otf */,
+				D9DC51E52C283209009A96F6 /* Pretendard-Bold.otf */,
+				D9DC51D62C283208009A96F6 /* Pretendard-ExtraBold.otf */,
+				D9DC51D72C283209009A96F6 /* Pretendard-ExtraLight.otf */,
+				D9DC51E22C283209009A96F6 /* Pretendard-Light.otf */,
+				D9DC51E42C283209009A96F6 /* Pretendard-Medium.otf */,
+				D9DC51E62C283209009A96F6 /* Pretendard-Regular.otf */,
+				D9DC51E72C28320A009A96F6 /* Pretendard-SemiBold.otf */,
+				D9DC51E82C28320A009A96F6 /* Pretendard-Thin.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		D9DC51D82C283209009A96F6 /* alternative */ = {
+			isa = PBXGroup;
+			children = (
+				D9DC51D92C283209009A96F6 /* Pretendard-Medium.ttf */,
+				D9DC51DA2C283209009A96F6 /* Pretendard-Black.ttf */,
+				D9DC51DB2C283209009A96F6 /* Pretendard-Regular.ttf */,
+				D9DC51DC2C283209009A96F6 /* Pretendard-Thin.ttf */,
+				D9DC51DD2C283209009A96F6 /* Pretendard-ExtraLight.ttf */,
+				D9DC51DE2C283209009A96F6 /* Pretendard-SemiBold.ttf */,
+				D9DC51DF2C283209009A96F6 /* Pretendard-ExtraBold.ttf */,
+				D9DC51E02C283209009A96F6 /* Pretendard-Bold.ttf */,
+				D9DC51E12C283209009A96F6 /* Pretendard-Light.ttf */,
+			);
+			path = alternative;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,6 +172,9 @@
 			dependencies = (
 			);
 			name = "SwiftUI Toast Demo";
+			packageProductDependencies = (
+				D9DC51D12C26FE22009A96F6 /* Lottie */,
+			);
 			productName = "SwiftUI Toast Demo";
 			productReference = 87CF23CC2B1DC58800821467 /* SwiftUI Toast Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -120,6 +203,9 @@
 				Base,
 			);
 			mainGroup = 87CF23C32B1DC58800821467;
+			packageReferences = (
+				D9DC51D02C26FE22009A96F6 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 87CF23CD2B1DC58800821467 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -134,7 +220,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9DC51F82C28320A009A96F6 /* Pretendard-Regular.otf in Resources */,
+				D9DC51EE2C28320A009A96F6 /* Pretendard-Thin.ttf in Resources */,
+				D9DC51EC2C28320A009A96F6 /* Pretendard-Black.ttf in Resources */,
 				87CF23D72B1DC58900821467 /* Preview Assets.xcassets in Resources */,
+				D9DC51F62C28320A009A96F6 /* Pretendard-Medium.otf in Resources */,
+				D9DC51F12C28320A009A96F6 /* Pretendard-ExtraBold.ttf in Resources */,
+				D9DC51ED2C28320A009A96F6 /* Pretendard-Regular.ttf in Resources */,
+				D9DC51F92C28320A009A96F6 /* Pretendard-SemiBold.otf in Resources */,
+				D9DC51D42C26FF0C009A96F6 /* testLottie.json in Resources */,
+				D9DC51FA2C28320A009A96F6 /* Pretendard-Thin.otf in Resources */,
+				D9DC51F72C28320A009A96F6 /* Pretendard-Bold.otf in Resources */,
+				D9DC51F32C28320A009A96F6 /* Pretendard-Light.ttf in Resources */,
+				D9DC51F02C28320A009A96F6 /* Pretendard-SemiBold.ttf in Resources */,
+				D9DC51F42C28320A009A96F6 /* Pretendard-Light.otf in Resources */,
+				D9DC51F22C28320A009A96F6 /* Pretendard-Bold.ttf in Resources */,
+				D9DC51EB2C28320A009A96F6 /* Pretendard-Medium.ttf in Resources */,
+				D9DC51EA2C28320A009A96F6 /* Pretendard-ExtraLight.otf in Resources */,
+				D9DC51EF2C28320A009A96F6 /* Pretendard-ExtraLight.ttf in Resources */,
+				D9DC51E92C28320A009A96F6 /* Pretendard-ExtraBold.otf in Resources */,
+				D9DC51F52C28320A009A96F6 /* Pretendard-Black.otf in Resources */,
 				87CF23D42B1DC58900821467 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9DC52012C29AA62009A96F6 /* TestView.swift in Sources */,
 				87CF23E02B1DCD8F00821467 /* ToastView.swift in Sources */,
 				87CF23D22B1DC58800821467 /* ContentView.swift in Sources */,
 				87CF23D02B1DC58800821467 /* SwiftUI_Toast_DemoApp.swift in Sources */,
@@ -287,6 +393,7 @@
 				DEVELOPMENT_TEAM = 2C96RNDN63;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-Toast-Demo-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +423,7 @@
 				DEVELOPMENT_TEAM = 2C96RNDN63;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-Toast-Demo-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -356,6 +464,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D9DC51D02C26FE22009A96F6 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D9DC51D12C26FE22009A96F6 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9DC51D02C26FE22009A96F6 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 87CF23C42B1DC58800821467 /* Project object */;
 }

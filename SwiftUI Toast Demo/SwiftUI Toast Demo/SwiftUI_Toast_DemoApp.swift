@@ -10,17 +10,18 @@ import SwiftUI
 @main
 struct SwiftUI_Toast_DemoApp: App {
     @StateObject var environment = Environment()
+//    @State var backgroundColor: Color = .white
     
     var body: some Scene {
         WindowGroup {
             ZStack {
-                ContentView()
-                    .environmentObject(environment)
+                ContentView(backgroundColor: .white)
+//                    .environmentObject(environment)
             }
-            .showToast(
-                isPresenting: $environment.isPresenting,
-                message: environment.message
-            )
+//            .showToast(
+//                isPresenting: $environment.isPresenting,
+//                message: environment.message
+//            )
         }
     }
 }

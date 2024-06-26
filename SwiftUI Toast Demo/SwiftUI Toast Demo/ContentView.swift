@@ -9,14 +9,37 @@ import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject var environment: Environment
+    @State var backgroundColor: Color
+    var text = ["기록 시작!", "Start Recording!"]
+    @State var index = 0
+    
+    @State var isPresenting: Bool = false
     
     var body: some View {
         ZStack(alignment: .center) {
+            backgroundColor
+                .ignoresSafeArea()
+            VStack {
+                ToastView(isPresenting: $isPresenting) { isPresenting in
+                    newRecordToastView(isPresenting: isPresenting)
+                }
+             Spacer()
+            }
             VStack {
                 Button {
-                    environment.showToast(message: "알림설정 변경에 실패했습니다.")
+//                    toastView.show()
+                    self.isPresenting = true
                 } label: {
                     Text("show toast")
+                }
+                Button {
+                    if backgroundColor == .white {
+                        self.backgroundColor = .black
+                    } else {
+                        self.backgroundColor = .white
+                    }
+                } label: {
+                    Text("change background color")
                 }
             }
             .padding()
@@ -26,5 +49,6 @@ struct ContentView: View {
 
 #Preview {
     @State var isPresenting: Bool = false
-    return ContentView().environmentObject(Environment())
+    return ContentView(backgroundColor: .white)
+        .environmentObject(Environment())
 }
